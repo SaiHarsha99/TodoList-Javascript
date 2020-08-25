@@ -3,4 +3,5 @@
 Sample Page
 ----------
 
-<img width="566" alt="Screenshot 2020-08-25 at 11 40 47 AM" src="https://user-images.githubusercontent.com/67738368/91129580-e0a4d280-e6c7-11ea-82ab-9d893477e1aa.png">
+<img width="547" alt="Screenshot 2020-08-25 at 8 02 27 PM" src="https://user-images.githubusercontent.com/67738368/91187655-09e85180-e70e-11ea-9472-4b627968419c.png">
+<img width="577" alt="Screenshot 2020-08-25 at 8 02 08 PM" src="https://user-images.githubusercontent.com/67738368/91187670-0ce34200-e70e-11ea-97d3-467baa1352a2.png">
