@@ -41,15 +41,17 @@ var createNewTaskElement = function (taskString) {
   return listItem;
 };
 
-var addTask = function () {
+var addTask = function (e) {
+  e.preventDefault();
   console.log("Add Task...");
   //Create a new list item with the text from the #new-task:
-  var listItem = createNewTaskElement(taskInput.value);
+  if (taskInput.value !== "") {
+    var listItem = createNewTaskElement(taskInput.value);
 
-  //Append listItem to incompleteTaskHolder
-  incompleteTaskHolder.appendChild(listItem);
-  bindTaskEvents(listItem, taskCompleted);
-
+    //Append listItem to incompleteTaskHolder
+    incompleteTaskHolder.appendChild(listItem);
+    bindTaskEvents(listItem, taskCompleted);
+  }
   taskInput.value = "";
 };
 
@@ -107,16 +109,11 @@ var taskIncomplete = function () {
   bindTaskEvents(listItem, taskCompleted);
 };
 
-var ajaxRequest = function () {
-  console.log("AJAX Request");
-};
-
 //The glue to hold it all together.
 
 //Set the click handler to the addTask function.
 addButton.onclick = addTask;
 addButton.addEventListener("click", addTask);
-addButton.addEventListener("click", ajaxRequest);
 
 var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("bind list item events");
