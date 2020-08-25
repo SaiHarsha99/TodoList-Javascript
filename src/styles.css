@@ -1,12 +1,18 @@
 /* Basic Style */
 body {
-  background: #fff;
+  background-image: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
   color: #333;
   font-family: Lato, sans-serif;
 }
 
 .title {
   text-align: center;
+  font-weight: bolder;
 }
 .container {
   display: block;
@@ -28,16 +34,18 @@ h3 {
 
 button {
   border: 0px;
-  color: #888;
   font-size: 15px;
-  width: 60px;
+  width: 70px;
   margin: 10px 0 0;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 .delete {
-  color: #cf2323;
+  color: #fd0606;
   font-weight: bold;
   margin-left: 10px;
 }
@@ -49,7 +57,7 @@ button {
 }
 
 .edit {
-  color: rgb(0, 183, 255);
+  color: rgb(212, 0, 255);
   font-weight: bold;
   margin-left: 10px;
 }
@@ -118,7 +126,7 @@ li > input[type="text"] {
 /* Completed */
 #completed-tasks label {
   text-decoration: line-through;
-  color: #888;
+  color: #fff;
 }
 
 /* Edit Task */
