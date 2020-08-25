@@ -10,7 +10,7 @@ body {
 }
 .container {
   display: block;
-  width: 400px;
+  width: 450px;
   margin: 100px auto 0;
 }
 ul {
@@ -39,16 +39,19 @@ button {
 .delete {
   color: #cf2323;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .add {
   color: rgb(87, 221, 82);
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .edit {
-  color: violet;
+  color: rgb(0, 183, 255);
   font-weight: bold;
+  margin-left: 10px;
 }
 
 button:hover {
@@ -88,10 +91,7 @@ label[for="new-task"] {
 }
 input#new-task {
   float: left;
-  width: 318px;
-}
-p > button:hover {
-  color: #0fc57c;
+  width: 340px;
 }
 
 /* Task list */
@@ -113,9 +113,6 @@ li > label {
 }
 li > input[type="text"] {
   width: 226px;
-}
-li > .delete:hover {
-  color: #cf2323;
 }
 
 /* Completed */
