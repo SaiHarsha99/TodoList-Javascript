@@ -2,6 +2,5 @@
 
 Sample Page
 ----------
-
-<img width="547" alt="Screenshot 2020-08-25 at 8 02 27 PM" src="https://user-images.githubusercontent.com/67738368/91187655-09e85180-e70e-11ea-9472-4b627968419c.png">
+<img width="757" alt="Screenshot 2020-08-26 at 10 55 48 AM" src="https://user-images.githubusercontent.com/67738368/91258752-c2ec7180-e78a-11ea-854b-b6b9c0e96cb3.png">
 
