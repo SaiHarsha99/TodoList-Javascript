@@ -17,7 +17,7 @@ body {
 .container {
   display: block;
   width: 450px;
-  margin: 100px auto 0;
+  margin: 100px auto 100px;
 }
 ul {
   margin: 0;
@@ -51,9 +51,9 @@ button {
 }
 
 .add {
-  color: rgb(87, 221, 82);
+  color: rgb(90, 13, 233);
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .edit {
@@ -99,7 +99,7 @@ label[for="new-task"] {
 }
 input#new-task {
   float: left;
-  width: 340px;
+  width: 300px;
 }
 
 /* Task list */
